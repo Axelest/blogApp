@@ -1,0 +1,13 @@
+{
+     "name": "blogapp",
+     "version": "1.0.0",
+     "main": "index.js",
+     "author": "Axel Garcia",
+     "license": "MIT",
+     "private": true,
+     "scripts": {
+          "install": "yarn --cwd blog-post install -force && yarn --cwd backend install -force",
+          "serve": "yarn --cwd backend start",
+          "develop": "yarn --cwd backend dev"
+     }
+}
